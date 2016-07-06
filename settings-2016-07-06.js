@@ -1,3 +1,5 @@
+var Geo={};
+
 function tracarRota(latDestino, lngDestino)
 {
 	$('.section-mapa .button').html('<i class="fa fa-spin fa-spinner"></i> Por favor, aguarde...').css('cursor','not-allowed').attr('disabled',true);
